@@ -23,6 +23,39 @@
 
         <main>
             
+        <!-- Diseño en ELMENTOS -->
+
+        <div class="m-0 vh-100 row justify-content-center align-item-center">
+            <div class="col-auto bg-danger p-5 text-center">
+                <div id="mi-carrusel" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        Elemento 1
+                        </div>
+                        <div class="carousel-item">
+                        Elemento 2
+                        </div>
+                        <div class="carousel-item">
+                        Elemento 3
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#mi-carrusel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#mi-carrusel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- PARTE DE SANDRA -->
+
         <div class ="formulario_preguntas">
         <form action="index.php" method="post">
             <div class=" ">
