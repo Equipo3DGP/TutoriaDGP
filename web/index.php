@@ -27,70 +27,30 @@
 
         <form action="index.php" method="post">
     
-        <form action="#">
-            <label for="lang">Temáticas</label>
-            <select name="Tematicas" id="lang">
-                <option value="Marvel">Marvel</option>
-                <option value="DC">DC</option>
-                <option value="Anillos">Señor de los anillos</option>
-                <option value="Harry">Harry Potter</option>
-                <option value="Stars">Stars Wars</option>
-            </select>
-            <button onclick="myFunction()" >
-                Elegir Temática
-            </button>
-            <script> 
-                function myFunction(){
-                    var tematica =document.getElementById("lang").value{
-                        if(tematica == "DC" ){
-                            location.replace("http://localhost:3000/web/Marvel.html");
-                        }
-                    }
-                }
-            </script>
-          
-        </form>
-        </form>
-        <div class="m-0 vh-100 row justify-content-center align-item-center">
-            <div class="col-auto bg-danger p-5 text-center">
-                <div id="mi-carrusel" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <p>En qué año se descubrió América?:</p><br> <input type="text"  />
-                        </div>
-                        <div class="carousel-item">
-                        <p>¿De qué color es el sol?:</p> <br><input type="text" /><br><br>
-                        </div>
-                        <div class="carousel-item">
-                        <p>¿Cuántos años tenía la reina?</p><div class="respuestas">
-                            <input type="radio" name="preg1" value="1" /> 59<br />
-                            <input type="radio" name="preg1" value="2" /> 89<br />
-                            <input type="radio" name="preg1" value="3" /> 96<br />
-                        </div>
-                        </div>
-                    </div>
+        <form>
+  Selecciona la Temática:
+  <select id="mySelect">
+    <option value="DC">DC</option>
+    <option value="Marvel">Marvel</option>
+    <option value="HP">Harry Potter</option>
+  </select>
+</form>
 
-                    <a class="carousel-control-prev" href="#mi-carrusel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Anterior</span>
-                    </a>
+<button type="button" onclick="myFunction()">Elegir temática</button>
 
-                    <a class="carousel-control-next" href="#mi-carrusel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Siguiente</span>
-                    </a>
-                </div>
-            </div>
-        </div>
+<script>
+function myFunction() {
 
+  if(document.getElementById("mySelect").value == "DC" ){
+    location.replace("http://localhost:3000/web/DC.php");
+    }else if(document.getElementById("mySelect").value == "Marvel"){
+        location.replace("http://localhost:3000/web/Marvel.php");
+    }else if(document.getElementById("mySelect").value == "HP"){
+        location.replace("http://localhost:3000/web/HP.php");
+    }
 
-        <!-- PARTE DE SANDRA -->
-
-</datalist>
-            <button class = "registro">Enviar respuestas</a></button>
-            </div>
-        </form>
-    </div> 
+}
+</script>
 
         </main>
 
