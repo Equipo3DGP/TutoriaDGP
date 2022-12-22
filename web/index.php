@@ -33,13 +33,13 @@
                 <div id="mi-carrusel" class="carousel slide" data-ride="carousel" data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        En qué año se descubrió América?:<br> <input type="text"  />
+                        <p>En qué año se descubrió América?:</p><br> <input type="text"  />
                         </div>
                         <div class="carousel-item">
-                        ¿De qué color es el sol?: <br><input type="text" /><br><br>
+                        <p>¿De qué color es el sol?:</p> <br><input type="text" /><br><br>
                         </div>
                         <div class="carousel-item">
-                        ¿Cuántos años tenía la reina?<div class="respuestas">
+                        <p>¿Cuántos años tenía la reina?</p><div class="respuestas">
                             <input type="radio" name="preg1" value="1" /> 59<br />
                             <input type="radio" name="preg1" value="2" /> 89<br />
                             <input type="radio" name="preg1" value="3" /> 96<br />
@@ -63,22 +63,6 @@
 
         <!-- PARTE DE SANDRA -->
 
-        <div class ="formulario_preguntas">
-        <form action="index.php" method="post">
-            <div class=" ">
-            ¿Cuál es tu nombre?: <input type="text" name="nick" /><br><br>
-            ¿Cuál es tu Apellido?: <input type="text" name="nick" /><br><br>
-            ¿Elige tu edad?: <input type="text" name="nick" /><br><br>
-            <label for="text">Elige tu edad: <label><input type="text" multiple name="text"id="text" list="drawtext"require size="6" />
-
-
-<datalist id="drawtext">
-  <option >12</option>
-  <option >13</option>
-  <option >14</option>
-  <option >15</option>
-  <option >16</option>
-  
 </datalist>
             <button class = "registro">Enviar respuestas</a></button>
             </div>
