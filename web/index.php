@@ -32,10 +32,7 @@
        
                    // Si el índice actual es igual al último índice
                    if (currentIndex === lastIndex) {
-                       <a class="carousel-control-next" href="#mi-carrusel" role="button" data-slide="next">
-                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                               <span class="sr-only">Siguiente</span>
-                           </a>
+                    document.getElementById("carousel-control-next").disabled = true;
                    }
        
              </script>
