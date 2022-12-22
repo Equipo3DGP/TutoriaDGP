@@ -31,37 +31,40 @@
           
         </form>
         </form>
-        <div class="m-0 vh-100 row justify-content-center align-item-center">
-            <div class="col-auto bg-danger p-5 text-center">
-                <div id="mi-carrusel" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <p>En qué año se descubrió América?:</p><br> <input type="text"  />
-                        </div>
-                        <div class="carousel-item">
-                        <p>¿De qué color es el sol?:</p> <br><input type="text" /><br><br>
-                        </div>
-                        <div class="carousel-item">
-                        <p>¿Cuántos años tenía la reina?</p><div class="respuestas">
-                            <input type="radio" name="preg1" value="1" /> 59<br />
-                            <input type="radio" name="preg1" value="2" /> 89<br />
-                            <input type="radio" name="preg1" value="3" /> 96<br />
-                        </div>
-                        </div>
+        <form action="index.php" method="post">
+    
+    </form>
+    <div class="justify-content-center align-item-center">
+        <div class="col-auto p-5 text-center" style="background-color:#82FFEC "  >
+            <div id="mi-carrusel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <p>En qué año se descubrió América?:</p><br> <input type="text"  />
                     </div>
-
-                    <a class="carousel-control-prev" href="#mi-carrusel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Anterior</span>
-                    </a>
-
-                    <a class="carousel-control-next" href="#mi-carrusel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Siguiente</span>
-                    </a>
+                    <div class="carousel-item">
+                    <p>¿De qué color es el sol?:</p> <br><input type="text" /><br><br>
+                    </div>
+                    <div class="carousel-item">
+                    <p>¿Cuántos años tenía la reina?</p><div class="respuestas">
+                        <input type="radio" name="preg1" value="1" /> 59<br />
+                        <input type="radio" name="preg1" value="2" /> 89<br />
+                        <input type="radio" name="preg1" value="3" /> 96<br />
+                    </div>
+                    </div>
                 </div>
+
+                <a class="carousel-control-prev" href="#mi-carrusel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+
+                <a class="carousel-control-next" href="#mi-carrusel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
             </div>
         </div>
+    </div>
 
 
         <!-- PARTE DE SANDRA -->
