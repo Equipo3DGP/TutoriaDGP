@@ -25,18 +25,25 @@
             
         <!-- Diseño en ELMENTOS -->
 
+        <form action="index.php" method="post">
+    
+        </form>
         <div class="m-0 vh-100 row justify-content-center align-item-center">
             <div class="col-auto bg-danger p-5 text-center">
                 <div id="mi-carrusel" class="carousel slide" data-ride="carousel" data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        Elemento 1
+                        En qué año se descubrió América?:<br> <input type="text"  />
                         </div>
                         <div class="carousel-item">
-                        Elemento 2
+                        ¿De qué color es el sol?: <br><input type="text" /><br><br>
                         </div>
                         <div class="carousel-item">
-                        Elemento 3
+                        ¿Cuántos años tenía la reina?<div class="respuestas">
+                            <input type="radio" name="preg1" value="1" /> 59<br />
+                            <input type="radio" name="preg1" value="2" /> 89<br />
+                            <input type="radio" name="preg1" value="3" /> 96<br />
+                        </div>
                         </div>
                     </div>
 
