@@ -3,9 +3,8 @@
     <head>
         <meta charset="utf-8">
         <!-- <link rel="icon" href="images/di-logo.png">  LOGO EN PESATAÑA-->
-        <title>JENUI 2023</title>
+        <title>PREGUNTAME</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="keywords" content="JENUI, jenui 2023, Jornadas de innovación docente en informática, XXIX Jornadas sobre la Enseñanza Universitaria de la Informática, Enseñanza Universitaria de la Informática, enseñanza universitaria, docencia en informática"/>
 
 
         <!-- BOOTSTRAP CSS -->
@@ -23,6 +22,7 @@
         ?>
 
         <main>
+
 
 
         </main>
