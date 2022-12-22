@@ -22,14 +22,31 @@
         ?>
 
         <main>
+        
+        <script>
+                   // Obtener el índice actual del carrusel
+                   var currentIndex = carousel.getCurrentIndex();
+       
+                   // Obtener el último índice del carrusel
+                   var lastIndex = carousel.getLastIndex();
+       
+                   // Si el índice actual es igual al último índice
+                   if (currentIndex === lastIndex) {
+                       <a class="carousel-control-next" href="#mi-carrusel" role="button" data-slide="next">
+                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                               <span class="sr-only">Siguiente</span>
+                           </a>
+                   }
+       
+             </script>
             
         <!-- Diseño en ELMENTOS -->
 
         <form action="index.php" method="post">
     
         </form>
-        <div class="m-0 vh-100 row justify-content-center align-item-center">
-            <div class="col-auto bg-danger p-5 text-center">
+        <div class="justify-content-center align-item-center">
+            <div class="col-auto p-5 text-center" style="background-color:#82FFEC "  >
                 <div id="mi-carrusel" class="carousel slide" data-ride="carousel" data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -61,15 +78,8 @@
         </div>
 
 
-        <!-- PARTE DE SANDRA -->
+        <!-- PARAR EL CARRUSEL EN EL ULTIMO ITEM -->
 
-</datalist>
-            <button class = "registro">Enviar respuestas</a></button>
-            </div>
-        </form>
-    </div> 
-
-        </main>
 
         <?php
         include 'footer.html';
