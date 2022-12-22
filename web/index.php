@@ -22,8 +22,15 @@
         ?>
 
         <main>
-
-
+        <div class ="formulario_preguntas">
+        <form action="index.php" method="post">
+            <div class=" ">
+            ¿Cuál es tu nombre?: <input type="text" name="nick" /><br>
+            
+            <button class = "registro">Enviar respuestas</a></button>
+            </div>
+        </form>
+    </div> 
 
         </main>
 
