@@ -44,6 +44,29 @@
 
         <form action="index.php" method="post">
     
+        <form action="#">
+            <label for="lang">Temáticas</label>
+            <select name="Tematicas" id="lang">
+                <option value="Marvel">Marvel</option>
+                <option value="DC">DC</option>
+                <option value="Anillos">Señor de los anillos</option>
+                <option value="Harry">Harry Potter</option>
+                <option value="Stars">Stars Wars</option>
+            </select>
+            <button onclick="myFunction()" >
+                Elegir Temática
+            </button>
+            <script> 
+                function myFunction(){
+                    var tematica =document.getElementById("lang").value{
+                        if(tematica == "DC" ){
+                            location.replace("http://localhost:3000/web/Marvel.html");
+                        }
+                    }
+                }
+            </script>
+          
+        </form>
         </form>
         <div class="justify-content-center align-item-center">
             <div class="col-auto p-5 text-center" style="background-color:#82FFEC "  >
