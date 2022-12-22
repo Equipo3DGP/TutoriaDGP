@@ -22,11 +22,24 @@
         ?>
 
         <main>
+            
         <div class ="formulario_preguntas">
         <form action="index.php" method="post">
             <div class=" ">
-            ¿Cuál es tu nombre?: <input type="text" name="nick" /><br>
-            
+            ¿Cuál es tu nombre?: <input type="text" name="nick" /><br><br>
+            ¿Cuál es tu Apellido?: <input type="text" name="nick" /><br><br>
+            ¿Elige tu edad?: <input type="text" name="nick" /><br><br>
+            <label for="text">Elige tu edad: <label><input type="text" multiple name="text"id="text" list="drawtext"require size="6" />
+
+
+<datalist id="drawtext">
+  <option >12</option>
+  <option >13</option>
+  <option >14</option>
+  <option >15</option>
+  <option >16</option>
+  
+</datalist>
             <button class = "registro">Enviar respuestas</a></button>
             </div>
         </form>
